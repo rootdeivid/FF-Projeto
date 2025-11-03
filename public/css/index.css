@@ -1,0 +1,220 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+}
+.desktop-1 {
+  background: #ffffff;
+  height: 3500px;
+  position: relative;
+  overflow: hidden;
+}
+.s-zy-uf-k-em-hf-ybra-et-jx-24-oyr-u-1 {
+  width: 1470px;
+  height: 250px;
+  position: absolute;
+  left: 0px;
+  top: -11px;
+  object-fit: cover;
+  aspect-ratio: 1470/250;
+}
+.yq-ofit-25-eztd-fx-2-z-97-jgr-d-7-yai-1 {
+  width: 1500px;
+  height: 469px;
+  position: absolute;
+  left: -15px;
+  top: 239px;
+  object-fit: cover;
+  aspect-ratio: 1500/469;
+}
+.home-login-cadastro {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  position: absolute;
+  left: 17px;
+  top: 168px;
+  width: 616px;
+  height: 51px;
+}
+.rectangle-1 {
+  background: #a78859;
+  width: 1440px;
+  height: 625px;
+  position: absolute;
+  left: 0px;
+  top: 708px;
+}
+.conhe-a-a-emocionante-hist-ria-de-eorzea {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  position: absolute;
+  left: 47px;
+  top: 748px;
+  width: 697px;
+  height: 210px;
+}
+.rectangle-3 {
+  background: #0d0d0d;
+  width: 277px;
+  height: 80px;
+  position: fixed;
+  left: 186px;
+  top: 1061px;
+}
+.saiba-mais {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: fixed;
+  left: 219px;
+  top: 1077px;
+}
+
+
+.footer,
+.footer * {
+  box-sizing: border-box;
+}
+.footer {
+  background: #ffffff;
+  height: 529px;
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  background: var(--dark, #0a142f);
+  width: 1440px;
+  height: 529px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.footer-ui {
+  position: absolute;
+  inset: 0;
+}
+.divider {
+  background: var(--white, #ffffff);
+  opacity: 0.25;
+  width: 74.58%;
+  height: 0.19%;
+  position: absolute;
+  right: 12.71%;
+  left: 12.71%;
+  bottom: 26.65%;
+  top: 73.16%;
+}
+.empresa {
+  width: 72px;
+  height: 207px;
+  position: static;
+}
+.empresa2 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  position: absolute;
+  left: 542px;
+  top: 100px;
+}
+.sobre-n-s {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  opacity: 0.7;
+  position: absolute;
+  left: 542px;
+  top: 164px;
+}
+.expans-es {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  opacity: 0.7;
+  position: absolute;
+  left: 542px;
+  top: 225px;
+}
+.insight {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Alef-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  opacity: 0.7;
+  position: absolute;
+  left: 542px;
+  top: 286px;
+}
+.categor-as {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 9.51%;
+  height: 27.6%;
+  position: absolute;
+  right: 38.26%;
+  left: 52.22%;
+  bottom: 53.5%;
+  top: 18.9%;
+  overflow: hidden;
+}
+.categoria {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+}
+.saber-mais {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  opacity: 0.7;
+  position: relative;
+}
+.ltimas-atualiza-es {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Adamina-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  opacity: 0.7;
+  position: relative;
+}
+.pngegg-1 {
+  width: 257px;
+  height: 257px;
+  position: absolute;
+  left: 192px;
+  top: 100px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}

@@ -24,9 +24,8 @@
             padding: 0 20px;
         }
         
-        /* Navbar */
         .navbar {
-            background-image: url(./FF-Projeto/public/assets/imgs/navbar.jpg);
+            background-image: url(./assets/imgs/navbar.jpg);
             background-size: 100% auto;
             color: black;
             background-color: #1a1a2e;
@@ -62,21 +61,15 @@
             font-weight: 500;
             transition: color 0.3s;
         }
-        
-        .navbar-nav a:hover {
-            color: #ffcc00;
-        }
-        
-        /* Imagem de separação */
+    
         .nav-separator {
             height: 6px;
             width: 100%;
             background: linear-gradient(90deg, #1a1a2e, #4a0e4e, #1a1a2e);
         }
         
-        /* Seção de introdução */
         .intro-section {
-            background-image: url(./FF-Projeto/public/assets/imgs/birthday21.jpg);
+            background-image: url(./assets/imgs/birthday21.jpg);
             background-size: 100% auto;
             background-position: center;
             background-repeat: no-repeat;
@@ -107,6 +100,9 @@
         }
         
         .intro-title {
+            position: absolute;
+            top: 20%;
+            left: 55%;
             font-size: 3.5rem;
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
@@ -114,15 +110,19 @@
         }
         
         .intro-subtitle {
+            position: absolute;
+            left: 50%;
+            text-align: justify;
+            color: #0a0a1a;
             font-size: 1.5rem;
-            max-width: 800px;
+            max-width: 600px;
             margin-bottom: 30px;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
         }
         
         /* Banner convite */
         .banner-section {
-            background-image: url(./FF-Projeto/public/assets/imgs/maybebanner2.jpg);
+            background-image: url(./assets/imgs/maybebanner2.jpg);
             padding: 60px 0;
             text-align: center;
         }
@@ -151,13 +151,6 @@
             transition: all 0.3s;
         }
         
-        .cta-button:hover {
-            background-color: #ffd633;
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(255, 204, 0, 0.4);
-        }
-        
-        /* Seção de expansões */
         .expansions-section {
             padding: 80px 0;
         }
@@ -182,11 +175,6 @@
             overflow: hidden;
             width: 300px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-            transition: transform 0.3s;
-        }
-        
-        .expansion-card:hover {
-            transform: translateY(-10px);
         }
         
         .expansion-image {
@@ -215,7 +203,6 @@
             font-size: 0.95rem;
         }
         
-        /* Footer */
         .footer {
             background-color: #0f0f1f;
             padding: 40px 0 20px;
@@ -250,51 +237,16 @@
             transition: color 0.3s;
         }
         
-        .footer-nav a:hover {
-            color: #ffcc00;
-        }
-        
         .footer-copyright {
             color: #777;
             font-size: 0.9rem;
             text-align: center;
             margin-top: 20px;
         }
-        
-        /* Responsividade */
-        @media (max-width: 768px) {
-            .intro-title {
-                font-size: 2.5rem;
-            }
-            
-            .intro-subtitle {
-                font-size: 1.2rem;
-            }
-            
-            .banner-title {
-                font-size: 2rem;
-            }
-            
-            .section-title {
-                font-size: 2rem;
-            }
-            
-            .navbar-container {
-                flex-direction: column;
-            }
-            
-            .navbar-nav {
-                margin-top: 15px;
-            }
-            
-            .navbar-nav li {
-                margin: 0 10px;
-            }
-        }
+
     </style>
 </head>
 <body>
-    <!-- Navbar -->
     <nav class="navbar">
         <div class="container navbar-container">
             <ul class="navbar-nav">
@@ -307,10 +259,8 @@
         </div>
     </nav>
     
-    <!-- Separador da Navbar -->
     <div class="nav-separator"></div>
     
-    <!-- Seção de Introdução -->
     <section class="intro-section">
         <div class="intro-overlay">
             <h1 class="intro-title">Final Fantasy XIV</h1>
@@ -318,7 +268,6 @@
         </div>
     </section>
     
-    <!-- Banner de Convite -->
     <section class="banner-section">
         <div class="container">
             <h2 class="banner-title">Junte-se à Aventura!</h2>
@@ -327,14 +276,13 @@
         </div>
     </section>
     
-    <!-- Seção de Expansões -->
     <section class="expansions-section">
         <div class="container">
             <h2 class="section-title">Expansões</h2>
             <div class="expansions-container">
                 <!-- A Realm Reborn -->
                 <div class="expansion-card">
-                    <img src="https://images6.alphacoders.com/311/311083.jpg" alt="A Realm Reborn" class="expansion-image">
+                    <img src="./assets/icon/arr.png" alt="A Realm Reborn" class="expansion-image">
                     <div class="expansion-content">
                         <h3 class="expansion-title">A Realm Reborn</h3>
                         <p class="expansion-year">2013</p>
@@ -344,7 +292,7 @@
                 
                 <!-- Heavensward -->
                 <div class="expansion-card">
-                    <img src="https://images5.alphacoders.com/602/602547.jpg" alt="Heavensward" class="expansion-image">
+                    <img src="./assets/icon/heavens.webp" alt="Heavensward" class="expansion-image">
                     <div class="expansion-content">
                         <h3 class="expansion-title">Heavensward</h3>
                         <p class="expansion-year">2015</p>
@@ -352,9 +300,8 @@
                     </div>
                 </div>
                 
-                <!-- Stormblood -->
                 <div class="expansion-card">
-                    <img src="https://images7.alphacoders.com/714/714418.png" alt="Stormblood" class="expansion-image">
+                    <img src="./assets/icon/shb.png" alt="Stormblood" class="expansion-image">
                     <div class="expansion-content">
                         <h3 class="expansion-title">Stormblood</h3>
                         <p class="expansion-year">2017</p>
@@ -362,9 +309,8 @@
                     </div>
                 </div>
                 
-                <!-- Shadowbringers -->
                 <div class="expansion-card">
-                    <img src="https://images2.alphacoders.com/101/1011225.jpg" alt="Shadowbringers" class="expansion-image">
+                    <img src="./assets/icon/sbw.png" alt="Shadowbringers" class="expansion-image" width="10%" height="10%">
                     <div class="expansion-content">
                         <h3 class="expansion-title">Shadowbringers</h3>
                         <p class="expansion-year">2019</p>
@@ -395,10 +341,9 @@
         </div>
     </section>
     
-    <!-- Footer -->
     <footer class="footer">
         <div class="container footer-container">
-            <img src="./FF-Projeto/public/assets/icon/icon.png" alt="Final Fantasy XIV Logo" class="footer-logo">
+            <img src="./assets/icon/icon.png" alt="Final Fantasy XIV Logo" class="footer-logo">
             <ul class="footer-nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Sobre</a></li>
